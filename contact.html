@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Javier Ruiz | Get in touch</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Contact details">
+        <meta name="author" content="Javier Ruiz">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/styles-responsive.css">
+        <link rel="icon" type="image/png" href="./images/mp.png"/>
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/custom.js"></script>
+    </head>
+<body>
+    <div id="container">
+        <header>
+            <a class="skip-link" href="#contact" title="Skip to main content" tabindex="1">Skip to content </a>
+            <div id="header">
+                <div class="header-left">
+                    <a href="index.html" title="Home page"><img src="images/mp.png" alt="Logo of the page"></a>
+                    <a href="index.html" title="Home page"><span>My portfolio</span></a>
+                </div>
+                <div class="header-middle" tabindex="0">
+                    <div id="menu" class="has-svg" tabindex="0"></div>
+                    <div class="dropdown-content">
+                      <ul>
+                        <li><a href="index.html" title="Home page"><span>About</span></a></li>
+                        <li><a href="portfolio.html" title="Portfolio page"><span>Portfolio</span></a></li>
+                        <li class="highlighted-header"><a href="#" title="Contact page"><span>Contact</span></a></li>
+                      </ul>
+                    </div>
+                </div>
+                <div class="color-mode"><a href="#" title="Color mode" class="has-svg" id="color-mode-icon"><span>Color mode</span></a></div>
+            </div>
+        </header>
+
+        <main>
+            <section id="contact">
+                <h1>Contact</h1>
+
+                <div id="contact-left-col">
+                    <iframe 
+                        width="450"
+                        height="340"
+                        style="border:0"
+                        loading="lazy"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12088.558402180099!2d-73.99373482142036!3d40.75895421922642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855b8fb3083%3A0xa0f9aef176042a5c!2sTheater+District%2C+New+York%2C+NY%2C+USA!5e0!3m2!1sen!2smm!4v1549875377188">
+                    </iframe>
+                    <div>
+                        <h2>Say hello</h2>
+                        <p id="phone-email" class="contact-details">
+                            <a href="tel:0100200960" id ="phone" class="has-svg" title="Call me at">010 020 0960</a>
+                            <a href="mailto:hello@company.co" id ="email" class="has-svg" title="Send me an email at">hello@company.co</a>
+                        </p>
+                        <p id="social-networks" class="contact-details">
+                            <a href="https://dribbble.com/" id ="dribble" class="has-svg" title="Visit our dribble site" target="_blank">Dribble</a>
+                            <a href="https://www.instagram.com/" id ="instagram" class="has-svg" title="Visit our instragram page" target="_blank">Instagram</a>
+                            <a href="https://www.youtube.com/" id ="youtube" class="has-svg" title="Visit our youtube page" target="_blank">Youtube</a>
+                        </p>
+                    </div>
+                </div>
+                <form>
+                    <h2>Interested to work together? Let's talk</h2>
+
+                    <ul> 
+                        <li class="box">
+                            <label for="name-form">
+                            <span>Your Name</span>
+                            </label>
+                            <input class="form-control" type="text" id="name-form" name="username" required>
+                        </li>
+                        <li class="box">
+                            <label for="mail-form">
+                            <span>E-mail</span>
+                            </label>
+                            <input class="form-control" type="email" id="mail-form" name="usermail" required>
+                        </li>
+                        <li class="box">
+                            <label for="phone-form">
+                            <span>Phone</span>
+                            </label>
+                            <input class="form-control" type="tel" id="phone-form" name="userphone" pattern="[0-9]{9,14}"  required>
+                        </li>
+                        <li class="box">
+                            <label for="msg" >Message</label>
+                            <textarea class="form-control" id="msg" name="user_message" minlength="10" maxlength="100" rows="4" required></textarea>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="policy" name="policy-check" value="privatepolicy" required>
+                            <label for="policy">
+                                <span>I have read and accept the <a href="#" title="Read our terms and conditions">Terms and conditions</a></span>
+                            </label> 
+                        </li>
+                        <li>
+                            <button type="submit">Send</button>
+                        </li>
+                    </ul>
+                </form>
+            </section>
+        </main>
+        
+        <footer>
+            <p>Copyright © 2021 Company Name. All rights reserved</p>
+            <p>Designed by <a href="https://www.facebook.com/tooplate" title="Facebook page of tooplate">Tooplate</a></p>
+        </footer>
+    </div>
+</body>
+</html>

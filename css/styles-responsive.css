@@ -1,0 +1,298 @@
+@media screen and (max-width: 1000px) {
+  
+    body {
+        padding: 0px 10px 10px 15px;
+    }
+
+    body h2 {
+        font-size: min(calc(5px + 5vw), 1.5em);
+    }
+    
+    body p {
+        font-size: min(calc(1px + 4vw), 18px);
+    }
+
+    /* Header */
+
+    #header {
+        width: 95vw;
+    }
+
+    header img {
+        width: min(10vw, 50px);
+    }
+
+    .header-left {
+        order: 1;
+        width: 55vw;
+        font-size: min(4vw, 18px);
+        padding-left: 5px;
+    }
+
+    .color-mode {
+        order: 2;
+        padding-left: 10vw;
+    }
+
+    .color-mode span {
+        display: none;
+    }
+
+    .header-middle {
+        order: 3;
+        position: relative;
+        padding-left: 10vw;
+    }
+
+    .dropdown-content {
+        order: 3;
+        display: none;
+    }
+
+    #menu.has-svg:before{
+        display: block;
+    }
+    
+    #menu.has-svg:focus::before{
+        content: '\eaa5';
+    }
+    
+    .header-middle:focus-within div {
+        display: block;
+    }
+
+    .header-middle:focus-within div ul {
+        position: absolute;
+        left: -45vw;
+        top: min(13vw, 50px);
+        list-style-type: none;
+    }
+
+    .header-middle:focus-within div ul li{
+        display: block;
+    }
+
+    main {
+        padding-top: 150px;
+    }
+
+    /* index.html */
+
+    #intro {
+        width: 90vw;
+    }
+
+    #intro .intro-text {
+        width: inherit;
+        float: none;
+    }
+
+    #intro img {
+        max-width: 90vw;
+        float: none;
+    }
+
+    #intro{
+        font-size: min(calc(1px + 4vw), 14px);
+    }
+    #intro a {
+        padding: 2vw 4vw 2vw 4vw;
+        font-size: min(calc(1px + 3vw), 18px);
+    }
+    #intro h1 {
+        font-size: min(calc(10px + 5vw), 40px);
+    }
+
+    #background {
+        padding-top: 50px;
+    }
+
+    #background h1 {
+        font-size: min(calc(10px + 5vw), 38px);
+    }
+
+    #background {
+        display: revert;
+    }
+
+    .background-content-col {
+        width: 90vw;
+        gap: 5vw;
+    }
+
+    #background div .circle {
+        width: min(15vw, 70px);
+        height: min(15vw, 70px);
+        font-size: min(4vw, 18px);
+        line-height: min(15vw, 70px);
+    }
+
+    .background-content-col .place{
+        font-size: min(calc(0px + 3vw), 14px);
+        display: block;
+    }
+
+    #circle-2018:before {
+        top: max(-38vw, -120px);
+        height: min(37.7vw, 120px);
+    }
+
+    #circle-2018 {
+        margin-top: min(38vw, 120px);
+    }
+
+    #circle-2016:before {
+        top: max(-30vw, -95px);
+        height: min(29.7vw, 95px);
+    }
+
+    #circle-2016 {
+        margin-top:min(30vw, 95px);
+    }
+
+    #circle-2014:before {
+        top: max(-46vw, -150px);
+        height: min(45.7vw, 150px);
+    }
+
+    #circle-2014 {
+        margin-top: min(46vw, 150px);
+    }
+
+    #circle-2015:before {
+        top: max(-35vw, -120px);
+        height: min(34.7vw, 120px);
+    }
+
+    #circle-2015 {
+        margin-top: min(35vw, 120px);
+    }
+
+    #circle-2013:before {
+        top: max(-35vw, -120px);
+        height: min(34.7vw, 120px);
+    }
+
+    #circle-2013 {
+        margin-top: min(35vw, 120px);
+    }
+
+    .background-content-col div:nth-child(2) div {
+        padding-bottom: 5vw;
+    }
+
+    #references {
+        width: 90vw;
+    }
+
+    #references h1 {
+        font-size: min(calc(10px + 5vw), 38px);
+    }
+
+    #references blockquote {
+        width: 80vw;
+        font-size: min(calc(1px + 4vw), 18px);
+        padding: 5vw 5vw 5vw 5vw;
+    }
+
+    blockquote::before {
+        left: 40vw;
+        top: 0;
+    }
+
+    #references blockquote p {
+        padding-top: min(15vw, 30px);
+    }
+
+    #references blockquote:after {
+        -moz-transform: skew(0deg);
+        transform: skew(0deg);
+    }
+
+    /* Portfolio.html*/
+
+    #portfolio {
+        width: 90vw;
+    }
+
+    #portfolio h1, #contact h1 {
+        font-size: min(calc(10px + 5vw), 64px);
+    }
+
+    #portfolio h1::before, #contact h1::before {
+        width: 25vw;
+        height: 6vw;
+    }
+
+    #portfolio h1::after, #contact h1::after {
+        width: 25vw;
+        height: 6vw;
+    }
+
+    #portfolio table {
+        font-size: min(calc(1px + 4vw), 18px);
+    }
+
+    #portfolio-images div figure {
+        padding-top: 0;
+        width: min(70vw, 300px);
+        padding-left: 20px;
+    }
+
+    #portfolio-images div figure figcaption {
+        font-size: min(calc(1px + 4vw), 18px);
+    }
+
+    /* Contact.html */
+
+    #contact {
+        width: 87vw;
+    }
+
+    #contact h1 {
+        font-size: calc(10px + 5vw);
+    }
+
+    #contact h2 {
+        font-size: min(calc(5px + 7vw), 38px);
+    }
+
+    #contact #contact-left-col {
+        width: 87vw;
+        margin-bottom: 20px;
+        float: initial;
+    }
+
+    iframe {
+        width: 87vw;
+    }
+
+    #contact-left-col .contact-details {
+        display: block;
+    }
+
+    #contact-left-col #social-networks {
+        padding: 0;
+    }
+
+    #phone-email a:first-child {
+        margin-bottom: 5px;
+    }
+
+    #contact form ul {
+        float: initial;
+        padding-bottom: 20px;
+    }
+
+    #contact .box input {
+        width: 85vw;
+    }
+
+    #contact .box textarea {
+        width: 85vw;
+    }
+
+    #contact form button {
+        width: min(55vw, 200px);
+    }
+}
